@@ -1,12 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Filmes</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-</body>
-</html>
+
+
+  <header>
+    <div class="logo">
+      <img src="bigode.jpg" alt="Logo">
+    </div>
+    <div class="search-bar">
+      <input type="text" placeholder="Pesquise por filmes...">
+      <button>Pesquisar</button>
+
+    </div>
+  </header>
+
+  <div class="main-container">
+      <aside class="genres">
+      <h3>Gêneros</h3>
+      <ul>
+        <li><a href="Ação.html">Ação</a></li>
+        <li><a href="Comedia.html"> Comedia </a></li>
+        <li><a href="Drama.html"> Drama </a></li>
+        <li><a href="Fic.html"> Ficção Cientifica </a></li>
+      </ul>
+    </aside>
+
+  
+    <main>
+      
+      <section class="carousel">
+        <div class="carousel-images">
+          <div class="movie" data-title="De Volta para o Futuro">
+            <a href="Devoltaparaofuturo.html">
+              <img src="btf.jpg" alt="De Volta para o Futuro">
+              <h4>De Volta para o Futuro</h4>
+            </a>
+            <button class="like-button">&#9733; Curtir</button>
+          </div>
+          <div class="movie" data-title="Karate Kid">
+            <a href="Karate Kid.html">
+              <img src="karate kid.jpg" alt="Karate Kid">
+              <h4>Karate Kid</h4>
+            </a>
+            <button class="like-button">&#9733; Curtir</button>
+          </div>
+          <div class="movie" data-title="Star Wars">
+            <a href="star_wars.html">
+              <img src="star wars.jpg" alt="Star Wars">
+              <h4>Star Wars</h4>
+            </a>
+            <button class="like-button">&#9733; Curtir</button>
+          </div>
+          <div class="movie" data-title="E.T. o Extraterrestre">
+            <a href="et.html">
+              <img src="et.jpg" alt="E.T. o Extraterrestre">
+              <h4>E.T. o Extraterrestre</h4>
+            </a>
+            <button class="like-button">&#9733; Curtir</button>
+          </div>
+          <div class="movie" data-title="Indiana Jones">
+            <a href="indiana jones.html">
+              <img src="indiana jones.jpg" alt="Indiana Jones">
+              <h4>Indiana Jones</h4>
+            </a>
+            <button class="like-button">&#9733; Curtir</button>
+          </div>
+          <div class="movie" data-title="O Mascara">
+            <a href="OMascara.html">
+              <img src="Mascara.jpg" alt="O Mascara">
+              <h4>O Mascara</h4>
+            </a>
+            <button class="like-button">&#9733; Curtir</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+   
+    <aside class="reviews">
+      <h3>Avaliações</h3>
+      <div class="review">
+        <p><strong>Usuário 1:</strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, itaque dolorum possimus alias illum aperiam. Recusandae provident fugiat magni unde harum natus.</p>
+      </div>
+      <div class="review">
+        <p><strong>Usuário 2:</strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, consectetur.</p>
+      </div>
+      <div class="review">
+        <p><strong>Usuário 3:</strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam ipsam eius, quidem doloremque dolor dolores? Ex!</p>
+      </div>
+    </aside>
+  </div>
+
+
+
+
